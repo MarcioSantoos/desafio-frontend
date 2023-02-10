@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(./assets/fonts/Poppins-Regular.woff);
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(./assets/fonts/Poppins-Bold.woff);
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url(./assets/fonts/Poppins-Light.woff);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+}
+
+.content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.column{
+    width: 50%;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.forms{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins-Ligth';
+    font-size: 16px;
+}
+
+.forms form label{
+    color: #333333;
+}
+
+.about{
+    width: 20%;
+}
+
+.confirm-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    color: #F5F5F5;
+    background-color: #FF8585;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+}
+
+
+.checkbox{
+    background-color: #F5F5F5;
+    width: 135px;
+    height: 25px;
+}
+
+.forms form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inputs{
+    padding-top: 5px;
+    padding-right: 100px;
+    outline: none;
+    border: 0px;
+    border-bottom: 1px solid #C4C4C4;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.inputs:focus, .camp-text:focus{
+    border-color: #FF8585;
+}
+
+.select-type, .camp-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    outline: none;
+}
+
+select{
+    color: #FF8585;
+    padding: 12px;
+    border-color: #C4C4C4;
+    border-radius: 5px;
+    outline: none;
+}
+
+option{
+    color: black;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 10px;
+    margin-top: 80px;
+}
+
+.line{
+    width: 20px;
+    height: 15px;
+    border: 0px;
+    border-bottom: 1px solid #FF8585;
+    margin-bottom: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+.container-bottom{
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+}
+
+.container-bottom p{
+    color: white;
+    justify-content: left;
+    padding: 15px 40px;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;  
+    width: 400spx;
+    height: 30px;
+}
+
+.label-contact{
+    width: 200px;
+    height: 30px;
+    margin-left: 1rem;
+    font-size: 12px;
+}
+
+
+.contact-info p{
+    width: 200px;
+    height: 30px;
+    margin-left: 1rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 60px;
+    margin-top: 0;
+    
+}
+
+.contact-img img{
+    width: 300px;
+    height: 450px;
+    margin-left: 5rem;
+    position: absolute;
+    
+}
+
+.contact-box{
+    border-left: 2px solid #FF8585;
+    margin-left: 5rem;
+    
+}
+
+.img-contato img{
+   position: relative;
+   width: 500px;
+   height:450px;
+   margin-top: 3rem;
+   margin-left: 0;
+}
+   
+.name-thaynara p{
+    color: #FF8585;
+    padding: 30px 30px;
+    font-family: 'Poppins-Bold';
+}
